@@ -1,8 +1,17 @@
 requires
-    - godotenv installed with godot 4.5.1
+    - godotenv installed
     - rust installed
+    - vscode (recommended)
 
 uses
-- godot 4.5.1
+- godot
 - bacon
 - godot-rs
+
+how to:
+- install workspace recommendations (vscode)
+- have two consoles
+    - in first ...
+        - cd to rust/ and run `bacon`   
+    - in second ...
+        - cd to godot/ and run `godot --editor`

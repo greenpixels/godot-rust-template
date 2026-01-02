@@ -10,22 +10,13 @@ config_version=5
 
 [application]
 
-config/name="clicker-game"
-run/main_scene="uid://bhx1rl37e1nnl"
+config/name="godot-rust-template"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
-
-[autoload]
-
-ControllerIcons="*res://addons/controller_icons/ControllerIcons.gd"
 
 [display]
 
 window/stretch/mode="canvas_items"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/controller_icons/plugin.cfg", "res://addons/gdUnit4/plugin.cfg")
 
 [gdunit4]
 
