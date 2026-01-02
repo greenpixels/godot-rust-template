@@ -1,0 +1,46 @@
+includePatterns:
+    "rule-filename-snake-case":
+        - ./**
+    "rule-parent-has-same-name":
+        - ./**/*.tscn
+        - ./**/*.gd
+    "rule-scene-nodes-pascal-case":
+        - ./**/*.tscn
+    "rule-root-node-is-file-name-pascal":
+        -  ./**/*.tscn
+    "rule-root-node-script-in-same-folder":
+        -  ./**/*.tscn
+    "rule-node-depth-fits-max-depth":
+        -  ./**/*.tscn
+
+ignorePatterns:
+    overall:
+        - ./godot-arch*
+        - ./godot/addons/**
+        - ./godot/export/**
+        - ./godot/.export_templates/**
+        - ./godot/reports/**
+        - ./godot/test/**
+        - ./**/*.uid
+        - ./**/*.tmp
+        - ./**/.{*} # Ignore hidden files
+        - ./**/Cargo.*
+        - ./**/target/**
+
+allowedFileLocations:
+    "./**/*.tscn":
+        - ./godot/{scenes,instances,globals}/{*}/*
+    "./**/*.gd":
+        - ./{scenes,instances,globals}/**
+    "./**/*.tres":
+        - ./resources/**/all/*.tres
+    "./**/*.gdshader":
+        - ./shaders/**
+    "./**/*.{png,jpg,jpeg,gif,webp,ico}":
+        - ./godot/{scenes,instances,globals}/{*}/assets/sprites/*
+    "./**/*.{mp3,wave,ogg,flac,aac,m4a}":
+        - ./godot/{scenes,instances,globals}/{*}/assets/audio/*
+    "./**/*.{ttf}":
+        - ./assets/fonts/**
+    "./**/*.translation":
+        - ./localization/**

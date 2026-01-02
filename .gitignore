@@ -1,0 +1,10 @@
+godot/.godot
+rust/target
+
+godot/.import/
+godot/export.cfg
+godot/export_credentials.cfg
+godot/*.tmp
+godot/reports
+godot/addons
+godot/.addons

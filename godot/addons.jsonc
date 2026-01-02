@@ -1,0 +1,10 @@
+{
+  "$schema": "https://chickensoft.games/schemas/addons.schema.json",
+  "addons": {
+    "gdUnit4": {
+      "url": "https://github.com/godot-gdunit-labs/gdUnit4",
+      "checkout": "v6.0.3",
+      "subfolder": "addons/gdUnit4"
+    }
+  }
+}
